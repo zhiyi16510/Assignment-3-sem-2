@@ -186,18 +186,7 @@ public class Sales extends JFrame {
 		panel_1.add(lblQuantity);
 		
 		quantityText = new JTextField();
-		quantityText.setFont(new Font("Tahoma", Font.PLAIN, 17));
-		quantityText.setColumns(10);
-		quantityText.setBounds(123, 152, 197, 29);
-		panel_1.add(quantityText);
-		
-		JLabel lblTotalPrice = new JLabel("Total Price");
-		lblTotalPrice.setFont(new Font("Tahoma", Font.BOLD, 18));
-		lblTotalPrice.setBounds(12, 200, 119, 32);
-		panel_1.add(lblTotalPrice);
-		
-		totalPriceText = new JTextField();
-		totalPriceText.addActionListener(new ActionListener() {
+		quantityText.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				try {
 					double price = Double.parseDouble(priceText.getText());
@@ -221,6 +210,17 @@ public class Sales extends JFrame {
 				}
 			}
 		});
+		quantityText.setFont(new Font("Tahoma", Font.PLAIN, 17));
+		quantityText.setColumns(10);
+		quantityText.setBounds(123, 152, 197, 29);
+		panel_1.add(quantityText);
+		
+		JLabel lblTotalPrice = new JLabel("Total Price");
+		lblTotalPrice.setFont(new Font("Tahoma", Font.BOLD, 18));
+		lblTotalPrice.setBounds(12, 200, 119, 32);
+		panel_1.add(lblTotalPrice);
+		
+		totalPriceText = new JTextField();
 		totalPriceText.setFont(new Font("Tahoma", Font.PLAIN, 17));
 		totalPriceText.setColumns(10);
 		totalPriceText.setBounds(123, 200, 197, 29);
@@ -470,6 +470,6 @@ public class Sales extends JFrame {
 		lblNewLabel_2.setBounds(37, 559, 281, 48);
 		contentPane.add(lblNewLabel_2);
 		
-		setTitle("SALES");
+		setTitle("Sales");
 	}
 }
