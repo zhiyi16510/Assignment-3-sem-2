@@ -184,6 +184,6 @@ public class Login extends JFrame {
 		contentPane.add(passwordIcon);
 		passwordIcon.setIcon(new ImageIcon("C:\\Users\\MAY NG\\Pictures\\lockicon1.png"));
 		
-		setTitle("LOGIN");
+		setTitle("Login");
 	}
 }
