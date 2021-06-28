@@ -108,7 +108,7 @@ public class CustomerRegistration extends JFrame {
 		btnBack.setBounds(555, 348, 117, 39);
 		contentPane.add(btnBack);
 		
-		setTitle("CUSTOMER REGISTRATION");
+		setTitle("Customer Registration");
 	}
 
 }
