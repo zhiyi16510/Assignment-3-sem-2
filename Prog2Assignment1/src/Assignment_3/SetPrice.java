@@ -230,5 +230,7 @@ public class SetPrice extends JFrame {
 		btnExit.setBackground(new Color(255, 182, 193));
 		btnExit.setBounds(870, 486, 164, 43);
 		contentPane.add(btnExit);
+		
+		setTitle("Set Price");
 	}
 }
