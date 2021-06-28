@@ -349,5 +349,7 @@ public class Employee extends JFrame {
 				
 			}
 	});
+		
+		setTitle("Employee Management");
 		}
 }
