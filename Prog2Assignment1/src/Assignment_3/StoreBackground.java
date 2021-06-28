@@ -119,6 +119,8 @@ public class StoreBackground extends JFrame {
 		image.setBounds(214, 413, 332, 259);
 		contentPane.add(image);
 		image.setIcon(new ImageIcon("C:\\Users\\MAY NG\\Downloads\\location (2).jpg"));
+		
+		setTitle("Store Background");
 	}
 
 }
