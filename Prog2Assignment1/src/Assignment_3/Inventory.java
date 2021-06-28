@@ -367,5 +367,6 @@ public class Inventory extends JFrame {
 		btnShow.setBounds(311, 76, 145, 54);
 		panel_8.add(btnShow);
 		
+		setTitle("Inventory");
 	}
 }
