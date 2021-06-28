@@ -301,6 +301,8 @@ public class Finance extends JFrame {
 		btnShow.setBackground(new Color(255, 182, 193));
 		btnShow.setBounds(706, 393, 153, 53);
 		contentPane.add(btnShow);
+		
+		setTitle("Finance");
 	}
 
 }
