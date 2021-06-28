@@ -144,7 +144,7 @@ public class UserHomePage extends JFrame {
 		btnBack.setBounds(319, 494, 116, 54);
 		contentPane.add(btnBack);
 		
-		setTitle("USER HOME PAGE");
+		setTitle("User Home Page");
 	}
 
 }
