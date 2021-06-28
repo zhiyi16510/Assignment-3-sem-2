@@ -136,5 +136,7 @@ public class AdvertisementnMarketing extends JFrame {
 		btnNewButton.setForeground(new Color(255, 255, 255));
 		btnNewButton.setBounds(757, 522, 122, 49);
 		contentPane.add(btnNewButton);
+		
+		setTitle("Advertisement and Marketing");
 	}
 }
