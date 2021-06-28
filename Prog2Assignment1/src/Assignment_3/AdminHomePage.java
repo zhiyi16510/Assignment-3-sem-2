@@ -148,6 +148,6 @@ public class AdminHomePage extends JFrame {
 		Back.setForeground(new Color(255, 255, 255));
 		Back.setBounds(353, 454, 105, 38);
 		contentPane.add(Back);
-		setTitle("ADMIN HOME PAGE");
+		setTitle("Admin Home Page");
 	}
 }
