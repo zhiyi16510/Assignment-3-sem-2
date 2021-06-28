@@ -368,6 +368,6 @@ public class OnlineCustomer extends JFrame {
 		btnNext.setBounds(708, 566, 131, 41);
 		contentPane.add(btnNext);
 		
-		setTitle("ONLINE CUSTOMER REGISTRATION");
+		setTitle("Online Customer Registration");
 	}
 }
