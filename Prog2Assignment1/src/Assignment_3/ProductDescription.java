@@ -230,5 +230,7 @@ public class ProductDescription extends JFrame {
 		btnNewButton.setBounds(248, 117, 143, 32);
 		panel_1.add(btnNewButton);
 		
+		setTitle("Product Description");
+		
 	}
 }
